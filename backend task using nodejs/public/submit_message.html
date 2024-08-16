@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Submit Message</title>
+        <link rel="stylesheet" href="css/submit_message.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+                <ul class="list">
+                    <li class="list-item"><a href="home.html">Home</a></li>
+                    <li class="list-item"><a href="submit_message.html">Submit a
+                            Message</a></li>
+                    <li class="list-item"><a href="view_messages.html">View
+                            Messages</a></li>
+                </ul>
+            </div>
+
+            <!-- heading -->
+            <div class="heading">
+                <p class="heading-text">Submit a Message</p>
+            </div>
+
+            <!-- text -->
+            <div class="text">
+                <p class="par">To Submit a message, plese fill out the form
+                    below with the required information:your name, email, and
+                    the message you wish to send</p>
+            </div>
+
+            <!-- form -->
+            <div class="my-form">
+                <form action method="get">
+
+                    <label for="title">Title:</label><br>
+                    <input id="title" type="text"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input id="email" type="email" name id><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea name id="message"></textarea><br><br>
+
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <script src="js/keyRedirect.js"></script>
+        <script src="js/formValidation.js"></script>
+    </body>
+</html>
